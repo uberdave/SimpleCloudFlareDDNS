@@ -60,7 +60,7 @@ def update_cf(saved_ip):
     data = data[u'request']
     current_ip = data[u'content']
     print "Update:",status
-    print "New IP in A Record:",current_ip
+    print "New IP in",RECORD_TYPE,"Record:",current_ip
     print "New Device IP Address:",saved_ip
  
 #Store IP on Server

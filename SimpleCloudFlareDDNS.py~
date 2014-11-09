@@ -1,12 +1,11 @@
 #!/usr/bin/python
 import os,re
-import urllib
 import sys
 import json
 import requests
 
-CLOUDFARE_EMAIL="you@example.com"	#Email you use to login to CloudFlare
-CLOUDFARE_API_KEY="put key here"        #CloudFlare API key	
+CLOUDFARE_EMAIL='you@example.com'	#Email you use to login to CloudFlare
+CLOUDFARE_API_KEY='put key here'        #CloudFlare API key	
 BASE_DOMAIN='example.com'	        #Domain Name whose records are being modified 
 RECORD_TYPE='A'   	                #See "Type" Column on https://www.cloudflare.com/dns-settings?z=example.com
 RECORD_NAME='@'	                        #See "Name" Column on https://www.cloudflare.com/dns-settings?z=example.com
